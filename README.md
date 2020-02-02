@@ -11,5 +11,5 @@ docker build -t HubertWo/crark:5.5
  * Please find more here http://www.crark.net/cRARk.html#423
  
 ```shell script
-docker run --rm -v [PATH_TO_LOCAL_DIR]:/data HubertWo/crark:5.5 crark -b -l8 -g13 -p/tmp/english.dif /data/[RAR_FILE_NAME]
+docker run --rm -v [PATH_TO_LOCAL_DIR]:/data HubertWo/crark:5.5 crark -p/tmp/english.def /data/[RAR_FILE_NAME]
 ```
