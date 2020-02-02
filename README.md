@@ -2,7 +2,7 @@
 
 ### How to build the container
 ```shell script
-docker build -t HubertWo/crark:5.5
+docker build -t hubertwo/crark:5.5 ./docker/
 ```
 
 ### How to run container
