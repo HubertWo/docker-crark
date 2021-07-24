@@ -1,8 +1,15 @@
 # Docker cRARk
 
+## Get image from Docker Hub 
+Container is available here:
+[https://hub.docker.com/r/hubertwo/crark](https://hub.docker.com/r/hubertwo/crark)
+ 
+## Build container yourself 
+
 ### How to build the container
 ```shell script
-docker build -t hubertwo/crark:5.5 ./docker/
+# pwd ../docker-crark/
+docker build -t hubertwo/crark:5.5 ./
 ```
 
 ### How to run container
